@@ -28,6 +28,13 @@ Some useful utilities I like for managing Python projects.
 These are minimal scripts and helpers to aid in managing Python projects. It is
 assumed that your project will use a virtual environment and pip.
 
+These utilities are **not** designed to automatically configure your entire
+project. You still need to create a source directory, install whatever modules
+you want, etc.
+
+For more tips on setting up a Python project, see [this
+post][pythonprojecttips].
+
 ### 1.1 Makefile
 
 Much of this file is focused on maintaining a `requirements.txt` file
@@ -70,3 +77,4 @@ You can reach me at <gatlin@niltag.net> if you want to inquire further.
 
 [gitignore.io]: http://www.gitignore.io
 [githubissues]: https://github.com/gatlin/my-python-project-skeleton/issues
+[pythonprojecttips]: http://as.ynchrono.us/2007/12/filesystem-structure-of-python-project_21.html
