@@ -6,7 +6,7 @@ def runtests():
     On success, return 0. Otherwise, return something that
     is not 0.
     '''
-
+    print "Running tests!"
     return 0
 
 if __name__=="__main__":
