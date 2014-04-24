@@ -10,7 +10,7 @@ syncdeps: requirements.txt
 	ve/bin/pip freeze > requirements.txt
 
 hook: hooks
-	ls hooks/ | xargs -I {} rm .git/hooks/{}
+	rm -rf .git/hooks/*
 	ls hooks/ | xargs -I {} ln -s hooks/{} .git/hooks/{}
 	chmod +x .git/hooks/*
 
